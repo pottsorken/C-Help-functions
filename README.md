@@ -1,7 +1,7 @@
 
 ## Content
 - **timekeeping.h** - For benchmarking
-- - long nano_seconds(struct timespec *t_start, struct timespec *t_stop)
+ - long nano_seconds(struct timespec *t_start, struct timespec *t_stop)
 - **stack.h** - For creating and handling a stack
 - - typedef struct stack
 - - stack *new_stack(int size)
