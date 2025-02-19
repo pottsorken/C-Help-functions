@@ -1,12 +1,20 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 typedef struct stack
 {
     int top;
     int size;
     int *array;
 } stack;
+
+// Functions
+stack *new_stack(int size);
+void push(stack *stk, int val);
+void push_dynamic(stack *stk, int val);
+int pop(stack *stk) ;
+int pop_dynamic(stack *stk) ;
 
 stack *new_stack(int size)
 {
