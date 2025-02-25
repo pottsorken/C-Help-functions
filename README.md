@@ -1,3 +1,4 @@
+This repository is created to store some of the functions and programmes I have made in courses in university. It is to act as a helping hand when I face similar problems to those I have already dealt with.
 
 ## Content
 * **timekeeping.h** - For benchmarking
